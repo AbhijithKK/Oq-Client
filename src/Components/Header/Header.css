@@ -1,0 +1,33 @@
+.HeaderBackground{
+    background-image: url('../../Assets/header.jpeg');
+    background-size: cover;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+.HeaderContainer{
+    margin-left: 50px;
+    margin-top: -4px;
+}
+.header-text{
+margin-top: 230px;
+color: white;
+
+}
+.header-text h1{
+    max-width: 500px;
+}
+.header-text p{
+    max-width: 300px;
+    font-size: small;
+}
+.header-text button{
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(34, 182, 182);
+    border: 0;
+    color: white;
+}
