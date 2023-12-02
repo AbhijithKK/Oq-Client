@@ -1,4 +1,53 @@
 .footer{
     height: 250px;
-    background-color: rgb(58, 112, 112);
+    background-color: rgb(53, 179, 179);
+    
+    width: 100%;
+    
+    margin-bottom: 0px;
+}
+.f-container{
+    display: grid;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.f-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 125px;
+}
+.f-bottom{
+    height: 125px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 10px;
+}
+.f-bottom span{
+    color: rgb(23, 61, 23);
+}
+.line{
+    width: 100%;
+    height: 2px;
+   outline: none;
+   border: 0;
+    background-color: rgba(83, 83, 82, 0.863) !important;
+}
+
+.top-item1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    
+}
+.f-h1{
+    font-weight: bold;
+    font-size: 15px;
+}
+.f-sml{
+    font-size: 10px;
 }
